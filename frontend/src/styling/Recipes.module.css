@@ -39,7 +39,7 @@
 .recipesSearchIcon{
     height: 100%;
     size: 100%;
-    color:#0066EE ;
+    color:#757574 ;
     margin-left: 0px;
 }
 .recipesSearchInput{
@@ -62,7 +62,7 @@
     font-size: 21px;
 }
 .socialMediaIconTwitter{
-    color: #0471ffe3;
+    color: #757574;
     font-size: 21px;
 }
 .socialMediaIconInsta{
@@ -74,7 +74,7 @@
     font-size: 21px;
 }
 .RecipeRatingStars{
-    color: #0066EE ;
+    color: #55000e ;
     margin-top: 1%;
     display:flex;
     /* height:20%; */
@@ -95,7 +95,7 @@
     margin-top: 2%;
 }
 .RecipeLogit{
-    background: #0066EE ;
+    background:#55000e ;
     text-align: center;
     align-content: center;
     color: white;
@@ -114,7 +114,7 @@
     margin-top: 1%;
 }
 .RecipeHeading:hover{
-    color: #0066EE;
+    color:#55000e;
 }
 .RecipeBy{
     color: grey;

@@ -37,7 +37,7 @@ const NavbarPremium = () => {
           <Box className="loginSignupButtons">
             <Button
               variant="ghost"
-              color="#0066EE"
+              color="#520013"
               onClick={() => navigate("/login")}
             >
               Log In
@@ -45,7 +45,7 @@ const NavbarPremium = () => {
             <Divider orientation="vertical" />
             <Button
               variant="ghost"
-              color="#0066EE"
+              color="#520013"
               onClick={() => navigate("/signup")}
             >
               Sign Up

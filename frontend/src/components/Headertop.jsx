@@ -3,6 +3,7 @@ import style from "../styling/headerbar.module.css";
 import { useNavigate, Link } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
+import fitnesLogo from "../assets/logo.png";
 
 export const Headertop = () => {
   const navigate = useNavigate();
@@ -12,7 +13,7 @@ export const Headertop = () => {
     <div>
       <div className={style.headcaring}>
         <img
-          src="https://bit.ly/3pONQwh"
+          src={fitnesLogo}
           alt=""
           onClick={()=>navigate("/myHome")}
         />

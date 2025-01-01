@@ -20,12 +20,12 @@
     color: grey;
   }
   .sliderText:hover {
-    color: #0066ee;
+    color: #430510;
   }
   .TRENDINGDiv {
     margin-top: 2%;
     margin-bottom: 2%;
-    border-bottom: 1px #0066ee;
+    border-bottom: 1px #4d0014;
     color: grey;
     display: flex;
     gap: 2%;
@@ -34,14 +34,14 @@
   .line {
     width: 83%;
     height: 2px;
-    background-color: #0066ee;
+    background-color: #4d0016;
   }
   
   /* Latest Articles */
   
   .LATESTDiv {
     margin-top: 2%;
-    border-bottom: 1px #0066ee;
+    border-bottom: 1px #480016;
     color: grey;
     display: flex;
     gap: 2%;
@@ -50,7 +50,7 @@
   .line2 {
     width: 85%;
     height: 2px;
-    background-color: #0066ee;
+    background-color: #4e021a;
   }
   .blogTrendingPoster {
     width: 100%;
@@ -114,7 +114,7 @@
   
   .blogHomeLoadMore {
     text-align: center;
-    background-color: #0066ee;
+    background-color: #530013;
     color: white;
     height: 100%;
     padding: 0.8%;
@@ -126,7 +126,7 @@
     font-size: 17px;
   }
   .trendingBlogGridHeading:hover {
-    color: #0066ee;
+    color: #460009;
   }
   .trendingBlogGridPara {
     font-size: 14px;

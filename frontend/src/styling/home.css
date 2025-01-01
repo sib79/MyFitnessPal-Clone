@@ -9,7 +9,7 @@
 }
 
 .bottom-left-column {
-  background-color: #ffdd33;
+  background-color: #757574;
 }
 
 .mid-column {
@@ -21,7 +21,7 @@
 
 .right-column {
   width: 10%;
-  background-color: #ffdd33;
+  background-color: #757574;
 }
 
 .container {
@@ -35,7 +35,7 @@
 }
 
 .second-section {
-  background-color: #ffdd33;
+  background-color: #757574;
 }
 
 .second-section-heading {
@@ -52,7 +52,7 @@
   height: 8px;
   border-radius: 20px;
   margin: auto;
-  background-color: #fff;
+  background-color:  #757574;
   position: relative;
   top: 35px;
   z-index: 1;
@@ -69,7 +69,7 @@
     width: 100%;
     height: 300px;
     padding-top: 40px;
-    background-color: #ffdd33;
+    background-color: #d6d5d1;
 }
 
 .third-section-img {
@@ -102,7 +102,7 @@
     text-align: center;
     position: relative;
     right: 30px;
-    color: blue;
+    color: #757574;
 }
 
 .inner-input-box input {
@@ -161,6 +161,10 @@
 
 .sixth-section-cards {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    a{
+        color: #520013 !important;
+    }
 }
 
 .seventh-section {

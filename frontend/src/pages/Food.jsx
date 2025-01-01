@@ -53,7 +53,7 @@ const Food = () => {
 							<Box w={{ base: "40%", md: "40%", lg: "30%" }}>
 								<Text
 									fontSize={{ base: "12px", md: "14px", lg: "20px" }}
-									color={"#746186"}
+									color={"#55000e"}
 									fontWeight="bold"
 								>
 									Your Food Diary For:
@@ -72,7 +72,7 @@ const Food = () => {
 										w={"10%"}
 										textAlign={"center"}
 										color={"white"}
-										backgroundColor={"#00548f"}
+										backgroundColor={"#55000e"}
 										borderTopLeftRadius="5"
 										borderBottomLeftRadius={"5"}
 									>
@@ -83,7 +83,7 @@ const Food = () => {
 										w={"70%"}
 										textAlign="center"
 										color={"white"}
-										backgroundColor={"#00548f"}
+										backgroundColor={"#55000e"}
 										borderRadius="3"
 									>
 										{date}
@@ -93,8 +93,8 @@ const Food = () => {
 										w={"10%"}
 										textAlign={"center"}
 										onClick={handleTomorrowDate}
-										color={"white"}
-										backgroundColor={"#00548f"}
+										color={"maroon"}
+										backgroundColor={"#55000e"}
 										borderTopRightRadius={"5"}
 										borderBottomRightRadius={"5"}
 									>
@@ -104,7 +104,7 @@ const Food = () => {
 										w={"15%"}
 										textAlign="center"
 										fontSize={"24px"}
-										color="#666666"
+										color="#55000e"
 									>
 										<i className="fa-solid fa-calendar-days"></i>
 									</Box>
@@ -112,13 +112,13 @@ const Food = () => {
 							</Box>
 						</Flex>
 						<Box
-							background={"#e6e6e6"}
+							background={"#55000e"}
 							h="2px"
 							mt={{ base: "2", md: 3, lg: 3 }}
 						></Box>
 						<Flex mt={"5"}>
 							<Box width={"35%"}>
-								<Heading as={"h2"} size={"md"} color={"#18689a"} mt="3">
+								<Heading as={"h2"} size={"md"} color={"#55000e"} mt="3">
 									Breakfast
 								</Heading>
 							</Box>
@@ -130,7 +130,7 @@ const Food = () => {
 								textAlign={"center"}
 							>
 								<Box
-									backgroundColor={"#00548f"}
+									backgroundColor={"#55000e"}
 									w="14%"
 									pt={"2"}
 									pb={"2"}
@@ -138,10 +138,10 @@ const Food = () => {
 								>
 									<span style={{ color: "white" }}>Calories</span>
 									<br />
-									<span style={{ color: "#a4c2d6" }}>kcal</span>
+									<span style={{ color: "#FFFFFF" }}>kcal</span>
 								</Box>
 								<Box
-									backgroundColor={"#00548f"}
+									backgroundColor={"#55000e"}
 									w="14%"
 									pt={"2"}
 									pb={"2"}
@@ -149,10 +149,10 @@ const Food = () => {
 								>
 									<span style={{ color: "white" }}>Carbs</span>
 									<br />
-									<span style={{ color: "#a4c2d6" }}>g</span>
+									<span style={{ color: "#FFFFFF" }}>g</span>
 								</Box>
 								<Box
-									backgroundColor={"#00548f"}
+									backgroundColor={"#55000e"}
 									w="14%"
 									pt={"2"}
 									pb={"2"}
@@ -160,10 +160,10 @@ const Food = () => {
 								>
 									<span style={{ color: "white" }}>Fat</span>
 									<br />
-									<span style={{ color: "#a4c2d6" }}>g</span>
+									<span style={{ color: "#FFFFFF" }}>g</span>
 								</Box>
 								<Box
-									backgroundColor={"#00548f"}
+									backgroundColor={"#55000e"}
 									w="14%"
 									pt={"2"}
 									pb={"2"}
@@ -171,10 +171,10 @@ const Food = () => {
 								>
 									<span style={{ color: "white" }}>Protein</span>
 									<br />
-									<span style={{ color: "#a4c2d6" }}>g</span>
+									<span style={{ color: "#FFFFFF" }}>g</span>
 								</Box>
 								<Box
-									backgroundColor={"#00548f"}
+									backgroundColor={"#55000e"}
 									w="14%"
 									pt={"2"}
 									pb={"2"}
@@ -182,10 +182,10 @@ const Food = () => {
 								>
 									<span style={{ color: "white" }}>Sodium</span>
 									<br />
-									<span style={{ color: "#a4c2d6" }}>mg</span>
+									<span style={{ color: "FFFFFF" }}>mg</span>
 								</Box>
 								<Box
-									backgroundColor={"#00548f"}
+									backgroundColor={"#55000e"}
 									w="14%"
 									pt={"2"}
 									pb={"2"}
@@ -193,7 +193,7 @@ const Food = () => {
 								>
 									<span style={{ color: "white" }}>Sugar</span>
 									<br />
-									<span style={{ color: "#a4c2d6" }}>g</span>
+									<span style={{ color: "#FFFFF" }}>g</span>
 								</Box>
 								<Box w="14%" pt={"2"} pb={"2"} lineHeight="1.5"></Box>
 							</Flex>
@@ -203,7 +203,7 @@ const Food = () => {
 							<hr />
 						</Box>
 						<Box width={"35%"}>
-							<Heading as={"h2"} size={"md"} color={"#18689a"} mt="3">
+							<Heading as={"h2"} size={"md"} color={"#55000e"} mt="3">
 								Lunch
 							</Heading>
 						</Box>
@@ -212,7 +212,7 @@ const Food = () => {
 							<hr />
 						</Box>
 						<Box width={"35%"}>
-							<Heading as={"h2"} size={"md"} color={"#18689a"} mt="3">
+							<Heading as={"h2"} size={"md"} color={"#55000e"} mt="3">
 								Dinner
 							</Heading>
 						</Box>
@@ -221,7 +221,7 @@ const Food = () => {
 							<hr />
 						</Box>
 						<Box width={"35%"}>
-							<Heading as={"h2"} size={"md"} color={"#18689a"} mt="3">
+							<Heading as={"h2"} size={"md"} color={"#55000e"} mt="3">
 								Snack
 							</Heading>
 						</Box>

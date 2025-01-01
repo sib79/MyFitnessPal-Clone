@@ -82,7 +82,7 @@ const Home = () => {
           <Box className="whiteLine"></Box>
           <Box className="second-section-heading">
             <Heading as={"h2"} size={{ base: "xl" }}>
-              Search over 11 million foods in our database.
+              Search over 100 foods in our data .
             </Heading>
           </Box>
           <Box className="second-section-des">

@@ -17,7 +17,7 @@ const UpperDiv = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #0066ee;
+  background:rgb(85, 0, 14);
   gap: 20px;
   color: white;
   font-size: 14px;

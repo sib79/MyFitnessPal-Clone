@@ -34,7 +34,7 @@ const LeftDiv = styled.div`
 const SummaryDiv = styled.div`
   width: 96%;
   height: 35px;
-  background: #0a5282;
+  background:rgb(84, 4, 28);
   display: flex;
   color: white;
   justify-content: space-between;
@@ -71,7 +71,7 @@ const SummaryBodyUP = styled.div`
   grid-template-columns: 23% 72%;
   grid-template-rows: 140px 55px;
   gap: 10px;
-  background: #f6f6f6;
+  background:rgb(158, 150, 150);
   justify-content: space-between;
   // margin-left: 18px;
 `;
@@ -81,7 +81,7 @@ const LeftSummaryUP = styled.div`
   margin: 0;
   margin-top: 15px;
   margin-left: 15px;
-  background: #e6e6e6;
+  background:rgb(160, 152, 152);
   box-sizing: border-box;
 
   p {
@@ -111,13 +111,13 @@ const RightSummaryUP = styled.div`
     font-size: 12px;
     color: rgb(85, 86, 86);
     span {
-      color: rgba(32, 62, 255, 0.724);
+      color: rgba(81, 1, 2, 0.72);
     }
   }
   div:nth-child(1) > p:last-child {
     font-size: 33px;
     font-weight: 750;
-    color: #85c400;
+    color:rgb(25, 27, 21);
   }
   div:nth-child(2) {
     display: flex;
@@ -225,10 +225,10 @@ const EmailDiv = styled.div`
       font-size: 12px;
       color: white;
       border: none;
-      background: rgb(0, 102, 238);
+      background: rgb(79, 5, 20);
     }
     p {
-      color: rgb(0, 102, 238);
+      color: rgb(78, 4, 10);
       font-size: 12px;
       margin: 10px;
       text-align: center;
@@ -238,7 +238,7 @@ const EmailDiv = styled.div`
 const NewsDiv = styled.div`
   width: 96%;
   height: 35px;
-  background: #0a5282;
+  background:rgb(78, 0, 14);
   display: flex;
   color: white;
   margin-top: 20px;
@@ -249,7 +249,7 @@ const NewsDiv = styled.div`
   }
 `;
 const NewsBody = styled.div`
-  background: #f6f6f6;
+  background:rgb(6, 1, 1);
   width: 96%;
   height: 110px;
   display: flex;
@@ -260,7 +260,7 @@ const NewsBody = styled.div`
     textarea {
       width: 100%;
       height: 50px;
-      border: 1px solid rgb(209, 208, 208);
+      border: 1px solid rgb(91, 83, 83);
       border-radius: 4px;
       padding-left: 5px;
       padding-top: 3px;
@@ -268,7 +268,7 @@ const NewsBody = styled.div`
       color: rgb(144, 144, 144);
 
       &:focus {
-        outline: 2px solid rgb(0, 102, 238);
+        outline: 2px solid rgb(78, 4, 18);
         // box-shadow: 0px 0px 2px red;
       }
     }
@@ -283,7 +283,7 @@ const NewsBody = styled.div`
       font-size: 12px;
       color: white;
       border: none;
-      background: rgb(0, 102, 238);
+      background: rgb(79, 2, 27);
     }
   }
 `;
@@ -401,7 +401,7 @@ const Para1 = styled.div`
       font-size: 13px;
       margin-top: 9px;
       margin-bottom: 9px;
-      color: #0066f0;
+      color:rgb(240, 0, 84);
     }
   }
   & > div:nth-child(3) {
@@ -427,7 +427,7 @@ const Para2 = styled.div`
     font-size: 13px;
     margin-top: 9px;
     margin-bottom: 9px;
-    color: #0066f0;
+    color:rgb(76, 4, 21);
     margin-bottom: 16px;
   }
 `;
@@ -436,7 +436,7 @@ const Para3 = styled.div`
 
   h1 {
     font-size: 12px;
-    color: #0066ee;
+    color:rgb(78, 4, 16);
     margin-top: 13px;
   }
   h2 {
@@ -447,7 +447,7 @@ const Para3 = styled.div`
   }
   h3 {
     font-size: 12px;
-    color: #007ef2;
+    color:rgb(79, 0, 25);
     font-weight: 100;
     margin-top: 7px;
   }

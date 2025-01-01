@@ -18,7 +18,7 @@
   font-weight: 700;
   border-bottom: 1px solid grey;
   padding-bottom: 1%;
-  color: #0a5282;
+  color: #4a0014;
   /* margin-top: -90px; */
 }
 .d3 {
@@ -45,12 +45,12 @@
   margin-left: 6%;
 }
 .d4_3 {
-  color: blue;
+  color: rgb(111, 3, 39);
   text-align: left;
   cursor: pointer;
 }
 .d4_3:hover {
-  color: rgb(241, 195, 14);
+  color: rgb(35, 2, 38);
 }
 .d4_4 {
   font-size: 12px;
@@ -58,7 +58,7 @@
   text-align: left;
 }
 .d4_5 {
-  border: 1px solid rgb(180, 174, 174);
+  border: 1px solid rgb(91, 2, 2);
   font-size: 12px;
   font-weight: 600;
   padding-left: 40px;
@@ -102,15 +102,15 @@
   text-align: left;
   padding: 5%;
   font-size: 13px;
-  color: blue;
+  color: rgb(88, 6, 15);
 }
 .d8:hover {
-  background-color: blue;
+  background-color: rgb(103, 6, 22);
   color: white;
   font-weight: bold;
 }
 .d8:active {
-  background-color: #1174b9;
+  background-color: #4f0311;
   padding-left: 10px;
 }
 .d6 {
