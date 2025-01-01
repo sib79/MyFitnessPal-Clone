@@ -21,9 +21,11 @@ const NavbarPremium = () => {
 
   console.log(user.given_name);
 
-  const logout = () => {
-    window.open(`https://myfitnesspalclone17.herokuapp.com/logout`, "_self");
+  const logOut = () => {
+    localStorage.removeItem("authToken");
+      window.location.href = "/";
   };
+  
 
   useEffect(() => {
     getUser();
@@ -57,7 +59,7 @@ const NavbarPremium = () => {
               {user.given_name}
             </Button>
             <Divider orientation="vertical" />
-            <Button variant="ghost" color="#0066EE" onClick={logout}>
+            <Button variant="ghost" color="#0066EE" onClick={logOut}>
               Log out
             </Button>
           </Box>

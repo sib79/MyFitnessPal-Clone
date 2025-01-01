@@ -1,24 +1,13 @@
 import { Box, Button, Heading, Input, Text } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
-// import SignupNavbar from "../../components/signup/SignupNavbar";
-import "../signup/SignupStyles.css";
 import { FcGoogle } from "react-icons/fc";
 import { useNavigate } from "react-router-dom";
 import NavbarPremium from "../premium/NavbarPremium";
-import { useDispatch, useSelector } from "react-redux";
-import { loginAPI } from "../../redux/auth/login/actionsLogin";
+import axios from "axios";
+import toast, { Toaster } from 'react-hot-toast';
 
 const Login = () => {
   const navigate = useNavigate();
-  const dispatch = useDispatch();
-
-  const googleAuth = () => {
-    window.open(
-      `https://myfitnesspalclone17.herokuapp.com/google/callback`,
-      "_self"
-    );
-  };
-
   const [loginCreds, setLoginCreds] = useState({
     email: "",
     password: "",
@@ -29,26 +18,59 @@ const Login = () => {
     setLoginCreds({ ...loginCreds, [name]: value });
   };
 
-  const handleLoginSubmit = (e) => {
+  const handleLoginSubmit = async (e) => {
     e.preventDefault();
-    console.log(loginCreds);
-    dispatch(loginAPI(loginCreds));
+
+    try {
+      const formData = new FormData();
+      formData.append("email", loginCreds.email);
+      formData.append("password", loginCreds.password);
+
+      const response = await axios.post(
+        "https://howard-stage.devdesignbuild.com/api/auth/login",
+        formData
+      );
+
+      if (response.data.status) {
+        const token = response.data.token.access_token;
+
+        // Save token in localStorage
+        localStorage.setItem("authToken", token);
+
+        // Success toast
+        toast.success("Login successful! Redirecting to home...");
+
+        // Navigate to the home page
+        navigate("/myHome");
+      } else {
+        toast.error("Login failed. Please check your credentials.");
+      }
+    } catch (error) {
+      console.error("Error during login:", error);
+      toast.error("An error occurred. Please try again later.");
+    }
   };
 
-  const { isAuth } = useSelector((state) => state.login);
+  const googleAuth = () => {
+    window.open(
+      `https://myfitnesspalclone17.herokuapp.com/google/callback`,
+      "_self"
+    );
+  };
 
   useEffect(() => {
-    if (isAuth) {
+    const token = localStorage.getItem("authToken");
+    if (token) {
       navigate("/myHome");
     }
-  }, [navigate, isAuth]);
+  }, [navigate]);
 
   return (
     <>
       <NavbarPremium />
       <Box className="signupWrapper">
         <Box className="insideBox" h="fit-content" p="20px">
-          <form action="submit" onSubmit={handleLoginSubmit}>
+          <form onSubmit={handleLoginSubmit}>
             <Box>
               <Heading fontSize="20px" my="10px">
                 Member Login
@@ -57,20 +79,20 @@ const Login = () => {
                 placeholder="Email Address"
                 h="50px"
                 my="20px"
-                isRequired
                 value={loginCreds.email}
                 onChange={handleLoginChange}
                 type="email"
                 name="email"
+                required
               />
               <Input
                 placeholder="Password"
                 h="50px"
-                isRequired
                 value={loginCreds.password}
                 onChange={handleLoginChange}
                 type="password"
                 name="password"
+                required
               />
               <Text
                 color="blue"
@@ -122,10 +144,11 @@ const Login = () => {
           </span>
         </Text>
       </Box>
+
+      {/* Toast Notifications Container */}
+      <Toaster/>
     </>
   );
 };
 
 export default Login;
-
-// /login

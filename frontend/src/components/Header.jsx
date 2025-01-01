@@ -30,7 +30,7 @@ const LowerDiv = styled.div`
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  background: #00548f;
+  background: #520013;
   gap: 20px;
   font-size: 14px;
   // font-weight: 550;
@@ -47,12 +47,12 @@ const Header = () => {
           <Link
             style={{
               textDecoration: "none",
-              color: navLinks === "myHome" ? "black" : "white",
+              color: navLinks === "/" ? "black" : "white",
             }}
-            onClick={() => setNavLinks("myHome")}
-            to="/myHome"
+            onClick={() => setNavLinks("/")}
+            to="/"
           >
-            MY HOME
+            HOME
           </Link>
         </p>
         <p>
@@ -86,7 +86,7 @@ const Header = () => {
               color: navLinks === "reports" ? "black" : "white",
             }}
             onClick={() => setNavLinks("reports")}
-            to="/reports"
+            to="/"
           >
             REPORTS
           </Link>
@@ -98,7 +98,7 @@ const Header = () => {
               color: navLinks === "apps" ? "black" : "white",
             }}
             onClick={() => setNavLinks("apps")}
-            to="/apps"
+            to="/"
           >
             APPS
           </Link>
@@ -110,7 +110,7 @@ const Header = () => {
               color: navLinks === "community" ? "black" : "white",
             }}
             onClick={() => setNavLinks("community")}
-            to="/community"
+            to="/"
           >
             COMMUNITY
           </Link>
@@ -122,7 +122,7 @@ const Header = () => {
               color: navLinks === "blog" ? "black" : "white",
             }}
             onClick={() => setNavLinks("blog")}
-            to="/blog"
+            to="/"
           >
             BLOG
           </Link>
@@ -134,7 +134,7 @@ const Header = () => {
               color: navLinks === "premium" ? "black" : "white",
             }}
             onClick={() => setNavLinks("premium")}
-            to="/premium"
+            to="/"
           >
             PREMIUM
           </Link>

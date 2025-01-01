@@ -26,21 +26,21 @@ export const Headertop = () => {
           <h5>Help</h5>|<h5>Settings</h5>|
           <h5
             onClick={() => {
-              localStorage.removeItem("");
+              localStorage.removeItem("authToken");
 
-              navigate("");
+              navigate("/");
             }}
           >
             Log Out
           </h5>
           |<h6>Follow Us: </h6>
           <a target="_blank" href="https://www.facebook.com/myfitnesspal">
-            <h2 style={{ color: "blue" }}>
+            <h2 style={{ color: "#520013" }}>
               <FaFacebook />
             </h2>
           </a>
           <a target="_blank" href="https://twitter.com/myfitnesspal">
-            <h2 style={{ color: "blue" }}>
+            <h2 style={{ color: "#520013" }}>
               <BsTwitter />
             </h2>
           </a>

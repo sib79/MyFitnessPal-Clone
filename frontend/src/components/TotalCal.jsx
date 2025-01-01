@@ -267,7 +267,7 @@ const TotalCal = () => {
         >
           <Box w={"30%"} textAlign="right" p="1"></Box>
           <Box
-            backgroundColor={"#00548f"}
+            backgroundColor={"#520013"}
             w="12%"
             pt={"1"}
             pb={"1"}
@@ -278,7 +278,7 @@ const TotalCal = () => {
             <span style={{ color: "#a4c2d6" }}>kcal</span>
           </Box>
           <Box
-            backgroundColor={"#00548f"}
+            backgroundColor={"#520013"}
             w="12%"
             pt={"1"}
             pb={"1"}
@@ -289,7 +289,7 @@ const TotalCal = () => {
             <span style={{ color: "#a4c2d6" }}>g</span>
           </Box>
           <Box
-            backgroundColor={"#00548f"}
+            backgroundColor={"#520013"}
             w="12%"
             pt={"1"}
             pb={"1"}
@@ -300,7 +300,7 @@ const TotalCal = () => {
             <span style={{ color: "#a4c2d6" }}>g</span>
           </Box>
           <Box
-            backgroundColor={"#00548f"}
+            backgroundColor={"#520013"}
             w="12%"
             pt={"1"}
             pb={"1"}
@@ -311,7 +311,7 @@ const TotalCal = () => {
             <span style={{ color: "#a4c2d6" }}>g</span>
           </Box>
           <Box
-            backgroundColor={"#00548f"}
+            backgroundColor={"#520013"}
             w="12%"
             pt={"1"}
             pb={"1"}
@@ -322,7 +322,7 @@ const TotalCal = () => {
             <span style={{ color: "#a4c2d6" }}>mg</span>
           </Box>
           <Box
-            backgroundColor={"#00548f"}
+            backgroundColor={"#520013"}
             w="12%"
             pt={"1"}
             pb={"1"}
