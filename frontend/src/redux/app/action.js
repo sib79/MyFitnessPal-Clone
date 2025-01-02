@@ -11,6 +11,7 @@ export const addBreakfast = (payload) => (dispatch) => {
     .catch((err) =>
       dispatch({ type: types.ADD_BREAKFAST_FAILURE, payload: err.response })
     );
+    
 };
 
 export const getBreakfast = (payload) => (dispatch) => {

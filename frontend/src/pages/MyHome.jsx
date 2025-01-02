@@ -436,7 +436,7 @@ const Para3 = styled.div`
 
   h1 {
     font-size: 12px;
-    color:rgb(78, 4, 16);
+    color:rgb(79, 0, 16);
     margin-top: 13px;
   }
   h2 {
