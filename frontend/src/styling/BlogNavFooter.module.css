@@ -28,7 +28,7 @@ color: #062d5f;
 font-size: 21px;
 }
 .socialMediaIconTwitter{
-color: #450012;
+color: #0066ee;
 font-size: 21px;
 }
 .socialMediaIconInsta{
@@ -40,14 +40,14 @@ font-size: 21px;
     font-size: 21px;
 }
 .socialMediaIconSearch{
-    color: #450012;
+    color: #0066ee;
     font-size: 21px;
 }
 .SubHeader_Container{
     display: flex;
     justify-content: center;
     gap: 2%;
-    background: #450012;
+    background: #0066ee;
     color: white;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -64,14 +64,14 @@ font-size: 21px;
 .FootlogoContainer{
 text-align: center;
 padding: 4%;
-color: #450012;
+color: #0066ee;
 font-size: 22px;
 }
 @media all and (min-width: 381px) and (max-width: 700px) {
     .FootlogoContainer {
         text-align: center;
         padding: 2%;
-        color: #450012;
+        color: #0066ee;
         font-size: 16px;
         margin-top: 5%;
         margin-bottom: 5%;
@@ -81,7 +81,7 @@ font-size: 22px;
     .FootlogoContainer {
         text-align: center;
         padding: 2%;
-        color: #450012;
+        color: #0066ee;
         font-size: 12px;
         margin-top: 5%;
         margin-bottom: 5%;
@@ -90,7 +90,7 @@ font-size: 22px;
 
 .MiniFootlogoContainer{
 text-align: center;
-color: #450012;
+color: #0066ee;
 font-size: 16px;
 }
 .BlogFootlogoPara{
