@@ -35,8 +35,48 @@ const Home = () => {
   return (
     <>
       <NavbarPremium />
+      <div className="container-fluid mid-column">
+        <div className="row">
+          <div className="col-md-2"></div>
+          <div className="col-md-8 py-5">
+            <Box className="heading">
+              <Heading
+                size={{ base: "xl", sm: "2xl" }}
+                as={"h1"}
+                className="text-white"
+              >
+                Fitness starts with what you eat.
+              </Heading>
+            </Box>
+            <Text
+              className="description text-white"
+              fontSize={{ base: "md", sm: "2xl", md: "2xl" }}
+            >
+              Take control of your goals. Track calories, break down
+              ingredients, and long activities with MyFitnessPal.
+            </Text>
+            <Button
+              colorScheme={"blue"}
+              width={{ base: "150px", md: "150px", lg: "200px" }}
+              height="50"
+              onClick={() => navigate("/signup")}
+              className="mb-3"
+            >
+              START FOR FREE
+            </Button>
+
+            <Text onClick={() => navigate("/login")} className="text-white">
+              Already have an account?{" "}
+              <Link to={"#"}>
+                <span style={{ color: "blue" }}>Login</span>
+              </Link>
+            </Text>
+          </div>
+          <div className="col-md-2"></div>
+        </div>
+      </div>
       <Box>
-        <Box className="top-section">
+        {/* <Box className="top-section">
           <Box className="left-column">
             <Box height={"82.7%"} width="100%"></Box>
             <Box
@@ -45,39 +85,10 @@ const Home = () => {
               className="bottom-left-column"
             ></Box>
           </Box>
-          <Box className="mid-column">
-            <Box className="container">
-              <Box className="heading">
-                <Heading size={{ base: "xl", sm: "2xl" }} as={"h1"}>
-                  Fitness starts with what you eat.
-                </Heading>
-              </Box>
-              <Text
-                className="description"
-                fontSize={{ base: "md", sm: "2xl", md: "2xl" }}
-              >
-                Take control of your goals. Track calories, break down
-                ingredients, and long activities with MyFitnessPal.
-              </Text>
-              <Button
-                colorScheme={"blue"}
-                width={{ base: "150px", md: "150px", lg: "200px" }}
-                height="50"
-                onClick={() => navigate("/signup")}
-              >
-                START FOR FREE
-              </Button>
-
-              <Text onClick={() => navigate("/login")}>
-                Already have an account?{" "}
-                <Link to={"#"}>
-                  <span style={{ color: "blue" }}>Login</span>
-                </Link>
-              </Text>
-            </Box>
-          </Box>
+          
           <Box className="right-column"></Box>
-        </Box>
+        </Box> */}
+
         <Box className="second-section">
           <Box className="whiteLine"></Box>
           <Box className="second-section-heading">
@@ -317,7 +328,7 @@ const Home = () => {
           <Box mt={[8, 16]}>
             <Image src="https://www.myfitnesspal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimg-apps%402x.85e549ef.png&w=1920&q=75" />
           </Box>
-          <Flex justifyContent={"center"} mt={16} w={{base: "80%"}} m="auto">
+          <Flex justifyContent={"center"} mt={16} w={{ base: "80%" }} m="auto">
             <Image src={appStore} w={["150px", "200px"]} />
             <Image src={googlePlay} w={["150px", "200px"]} />
           </Flex>
