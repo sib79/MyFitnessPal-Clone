@@ -45,7 +45,7 @@
   margin-left: 6%;
 }
 .d4_3 {
-  color: rgb(111, 3, 39);
+  color: #0066ee;
   text-align: left;
   cursor: pointer;
 }
@@ -58,7 +58,7 @@
   text-align: left;
 }
 .d4_5 {
-  border: 1px solid rgb(91, 2, 2);
+  border: 1px solid #0066ee;
   font-size: 12px;
   font-weight: 600;
   padding-left: 40px;
@@ -75,7 +75,7 @@
     color-stop(0.75, #ebebeb)
   );
 }
-.a:hover{
+.a:hover {
   text-decoration: none;
   color: black;
 }
@@ -85,7 +85,6 @@
   width: 20%;
   margin-left: 18%;
 }
-
 
 .cg {
   margin-top: 16%;
@@ -102,15 +101,15 @@
   text-align: left;
   padding: 5%;
   font-size: 13px;
-  color: rgb(88, 6, 15);
+  color: #0066ee;
 }
 .d8:hover {
-  background-color: rgb(103, 6, 22);
+  background-color: #0066ee;
   color: white;
   font-weight: bold;
 }
 .d8:active {
-  background-color: #4f0311;
+  background-color: #0066ee;
   padding-left: 10px;
 }
 .d6 {
@@ -119,7 +118,7 @@
   height: 36px;
   display: flex;
 }
-.input{
+.input {
   /* border: 1px solid red; */
   background-color: rgb(240, 242, 242);
   width: 90%;

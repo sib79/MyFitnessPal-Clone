@@ -53,7 +53,7 @@ const Food = () => {
 							<Box w={{ base: "40%", md: "40%", lg: "30%" }}>
 								<Text
 									fontSize={{ base: "12px", md: "14px", lg: "20px" }}
-									color={"#55000e"}
+									color={"#0066ee"}
 									fontWeight="bold"
 								>
 									Your Food Diary For:
@@ -72,7 +72,7 @@ const Food = () => {
 										w={"10%"}
 										textAlign={"center"}
 										color={"white"}
-										backgroundColor={"#55000e"}
+										backgroundColor={"#0066ee"}
 										borderTopLeftRadius="5"
 										borderBottomLeftRadius={"5"}
 									>
@@ -83,7 +83,7 @@ const Food = () => {
 										w={"70%"}
 										textAlign="center"
 										color={"white"}
-										backgroundColor={"#55000e"}
+										backgroundColor={"#0066ee"}
 										borderRadius="3"
 									>
 										{date}
@@ -94,7 +94,7 @@ const Food = () => {
 										textAlign={"center"}
 										onClick={handleTomorrowDate}
 										color={"maroon"}
-										backgroundColor={"#55000e"}
+										backgroundColor={"#0066ee"}
 										borderTopRightRadius={"5"}
 										borderBottomRightRadius={"5"}
 									>
@@ -104,7 +104,7 @@ const Food = () => {
 										w={"15%"}
 										textAlign="center"
 										fontSize={"24px"}
-										color="#55000e"
+										color="#0066ee"
 									>
 										<i className="fa-solid fa-calendar-days"></i>
 									</Box>
@@ -112,13 +112,13 @@ const Food = () => {
 							</Box>
 						</Flex>
 						<Box
-							background={"#55000e"}
+							background={"#0066ee"}
 							h="2px"
 							mt={{ base: "2", md: 3, lg: 3 }}
 						></Box>
 						<Flex mt={"5"}>
 							<Box width={"35%"}>
-								<Heading as={"h2"} size={"md"} color={"#55000e"} mt="3">
+								<Heading as={"h2"} size={"md"} color={"#0066ee"} mt="3">
 									Breakfast
 								</Heading>
 							</Box>
@@ -130,7 +130,7 @@ const Food = () => {
 								textAlign={"center"}
 							>
 								<Box
-									backgroundColor={"#55000e"}
+									backgroundColor={"#0066ee"}
 									w="14%"
 									pt={"2"}
 									pb={"2"}
@@ -141,7 +141,7 @@ const Food = () => {
 									<span style={{ color: "#FFFFFF" }}>kcal</span>
 								</Box>
 								<Box
-									backgroundColor={"#55000e"}
+									backgroundColor={"#0066ee"}
 									w="14%"
 									pt={"2"}
 									pb={"2"}
@@ -152,7 +152,7 @@ const Food = () => {
 									<span style={{ color: "#FFFFFF" }}>g</span>
 								</Box>
 								<Box
-									backgroundColor={"#55000e"}
+									backgroundColor={"#0066ee"}
 									w="14%"
 									pt={"2"}
 									pb={"2"}
@@ -163,7 +163,7 @@ const Food = () => {
 									<span style={{ color: "#FFFFFF" }}>g</span>
 								</Box>
 								<Box
-									backgroundColor={"#55000e"}
+									backgroundColor={"#0066ee"}
 									w="14%"
 									pt={"2"}
 									pb={"2"}
@@ -174,7 +174,7 @@ const Food = () => {
 									<span style={{ color: "#FFFFFF" }}>g</span>
 								</Box>
 								<Box
-									backgroundColor={"#55000e"}
+									backgroundColor={"#0066ee"}
 									w="14%"
 									pt={"2"}
 									pb={"2"}
@@ -185,7 +185,7 @@ const Food = () => {
 									<span style={{ color: "FFFFFF" }}>mg</span>
 								</Box>
 								<Box
-									backgroundColor={"#55000e"}
+									backgroundColor={"#0066ee"}
 									w="14%"
 									pt={"2"}
 									pb={"2"}
@@ -203,7 +203,7 @@ const Food = () => {
 							<hr />
 						</Box>
 						<Box width={"35%"}>
-							<Heading as={"h2"} size={"md"} color={"#55000e"} mt="3">
+							<Heading as={"h2"} size={"md"} color={"#0066ee"} mt="3">
 								Lunch
 							</Heading>
 						</Box>
@@ -212,7 +212,7 @@ const Food = () => {
 							<hr />
 						</Box>
 						<Box width={"35%"}>
-							<Heading as={"h2"} size={"md"} color={"#55000e"} mt="3">
+							<Heading as={"h2"} size={"md"} color={"#0066ee"} mt="3">
 								Dinner
 							</Heading>
 						</Box>
@@ -221,7 +221,7 @@ const Food = () => {
 							<hr />
 						</Box>
 						<Box width={"35%"}>
-							<Heading as={"h2"} size={"md"} color={"#55000e"} mt="3">
+							<Heading as={"h2"} size={"md"} color={"#0066ee"} mt="3">
 								Snack
 							</Heading>
 						</Box>

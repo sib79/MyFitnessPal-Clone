@@ -58,7 +58,7 @@ const Exercise = () => {
 											w={"10%"}
 											textAlign={"center"}
 											color={"white"}
-											backgroundColor={"#520013"}
+											backgroundColor={"#0066ee"}
 											borderTopLeftRadius="5"
 											borderBottomLeftRadius={"5"}
 										>
@@ -69,7 +69,7 @@ const Exercise = () => {
 											w={"70%"}
 											textAlign="center"
 											color={"white"}
-											backgroundColor={"#520013"}
+											backgroundColor={"#0066ee"}
 											borderRadius="3"
 										>
 											{date}
@@ -80,7 +80,7 @@ const Exercise = () => {
 											textAlign={"center"}
 											onClick={handleTomorrowDate}
 											color={"white"}
-											backgroundColor={"#520013"}
+											backgroundColor={"#0066ee"}
 											borderTopRightRadius={"5"}
 											borderBottomRightRadius={"5"}
 										>

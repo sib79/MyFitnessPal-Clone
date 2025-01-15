@@ -35,12 +35,12 @@ export const Headertop = () => {
           </h5>
           |<h6>Follow Us: </h6>
           <a target="_blank" href="https://www.facebook.com/myfitnesspal">
-            <h2 style={{ color: "#520013" }}>
+            <h2 style={{ color: "#0066ee" }}>
               <FaFacebook />
             </h2>
           </a>
           <a target="_blank" href="https://twitter.com/myfitnesspal">
-            <h2 style={{ color: "#520013" }}>
+            <h2 style={{ color: "#0066ee" }}>
               <BsTwitter />
             </h2>
           </a>

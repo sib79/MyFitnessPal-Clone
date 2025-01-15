@@ -73,7 +73,7 @@
   height: 180px;
   padding-top: 40px;
   background: rgb(0, 102, 238);
-  background: linear-gradient(166deg, #520013 0%, rgba(143, 130, 250, 1) 80%);
+  background: linear-gradient(166deg, #0066ee 0%, rgba(143, 130, 250, 1) 80%);
 }
 
 .third-section-img {
@@ -167,7 +167,7 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
   a {
-    color: #520013 !important;
+    color: #0066ee !important;
   }
 }
 

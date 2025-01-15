@@ -32,7 +32,7 @@ const AppPage = () => {
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -46,7 +46,7 @@ const AppPage = () => {
                   <p className={Styles.d4_3}>Garmin Connect</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3QXrsN2" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3QXrsN2" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -62,7 +62,7 @@ MapMyFitness
 </p>
                   <p className={Styles.d4_4}>Fitness Apps</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -78,7 +78,7 @@ MapMyWalk
 </p>
                   <p className={Styles.d4_4}>Fitness Apps</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -94,7 +94,7 @@ Strava
 </p>
                   <p className={Styles.d4_4}>Fitness Apps</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -108,7 +108,7 @@ Strava
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -122,7 +122,7 @@ Strava
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -136,7 +136,7 @@ Strava
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -150,7 +150,7 @@ Strava
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -166,7 +166,7 @@ Strava
 </p>
                   <p className={Styles.d4_4}>Fitness Apps</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -182,7 +182,7 @@ Strava
 </p>
                   <p className={Styles.d4_4}>Fitness Apps</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -197,7 +197,7 @@ Strava
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -216,7 +216,7 @@ Strava
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -230,7 +230,7 @@ Strava
                   <p className={Styles.d4_3}>Garmin Connect</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -244,7 +244,7 @@ Strava
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -258,7 +258,7 @@ Strava
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -272,7 +272,7 @@ Strava
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -286,7 +286,7 @@ Strava
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -300,7 +300,7 @@ Strava
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -314,7 +314,7 @@ Strava
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -328,7 +328,7 @@ Strava
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -342,7 +342,7 @@ Strava
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -356,7 +356,7 @@ Strava
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -371,7 +371,7 @@ Strava
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -385,7 +385,7 @@ Strava
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -399,7 +399,7 @@ Strava
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>
@@ -413,7 +413,7 @@ Strava
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
                   <button className={Styles.d4_5}>
-                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                    <a className="text-black" href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
                   </button>
                 </div>
               </div>

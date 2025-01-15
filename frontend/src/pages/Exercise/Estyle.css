@@ -9,7 +9,7 @@
     margin-top: 40px;
 }
 .a{
-    color: #55000e;
+    color: #0066ee;
     font-size: 24px;
     font-weight: bold;
     padding-left: 0;
@@ -17,7 +17,7 @@
     width: 450px;
 }
 .b{
-    background-color: #55000e;
+    background-color: #0066ee;
     border: 1px solid #fff;
     
    padding-top: 10px;
@@ -40,7 +40,7 @@
     justify-content: space-between;
     text-align: center;
     font-size: 16px;
-    color: #55000e;
+    color: #0066ee;
 }
 .talika{
     margin: auto;
@@ -58,7 +58,7 @@
     
 }
 .y{
-    background-color: #55000e;
+    background-color: #0066ee;
     border: 1px solid #fff;
     padding: 8px 7px;
     justify-content: center;
@@ -76,7 +76,7 @@
 }
 .last p{
     font-size: 18px;
-    color:  #55000e;
+    color:  #0066ee;
 }
 .nput{
    width: 800px;
@@ -87,7 +87,7 @@
     border: 1px solid black;
 }
 .text{
-    color: #55000e;
+    color: #0066ee;
     font-size: 24px;
     font-weight: bold;
     padding-left: 0;
