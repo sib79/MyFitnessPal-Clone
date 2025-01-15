@@ -14,7 +14,7 @@ const SnackSearch = () => {
   const navigate = useNavigate();
   const [query, setQuery] = useState("");
   const [foods, setFoods] = useState([]);
-  const[food, setFoods]
+  
 
   const handleSearch = () => {
     axios
